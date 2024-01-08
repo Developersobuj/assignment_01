@@ -17,15 +17,12 @@ body {
 #banner {
     height: 600px;
     background: url('../assests/Banner\ Image.png'), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    /* background: ; */
 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 16px;
-    /* ,  */
 
-    /* opacity: 50%; */
     background-blend-mode: multiply;
 }
 
@@ -88,7 +85,7 @@ body {
 }
 
 .party_section {
-    /* width: 1320px; */
+
     height: 600px;
     background: url('../assests/Vectorrr.png'), linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 
@@ -113,7 +110,6 @@ body {
     letter-spacing: 7.04px;
     font-weight: 900;
     line-height: 88px;
-    /* font-family: Merriweather; */
     font-family: Merriweather;
 }
 
@@ -121,7 +117,6 @@ body {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     padding-bottom: 50px;
@@ -134,9 +129,7 @@ body {
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -159,7 +152,7 @@ body {
     text-align: center;
     font-family: Inter;
     font-size: 32px;
-    font-style: normal;
+
     font-weight: 600;
     line-height: 56px;
     /* 175% */
@@ -170,7 +163,6 @@ body {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
-    font-style: normal;
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
@@ -193,6 +185,7 @@ body {
 }
 
 #offer_div {
+    margin-top: 120px;
     display: flex;
     gap: 50px;
     align-items: center;
@@ -215,16 +208,16 @@ body {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 500;
-    line-height: normal;
+
 }
 
 #text_div h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
+
     font-weight: 900;
-    line-height: normal;
+
     text-transform: capitalize;
 }
 
@@ -232,7 +225,6 @@ body {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
     /* 160% */
@@ -242,9 +234,7 @@ body {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 
@@ -252,7 +242,6 @@ body {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
     padding-bottom: 30px;
@@ -268,7 +257,6 @@ body {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 500;
-    line-height: normal;
 }
 
 #portfolio_section h1 {
@@ -276,9 +264,7 @@ body {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
 }
 
@@ -286,7 +272,6 @@ body {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
     width: 70%;
@@ -314,6 +299,7 @@ body {
 }
 
 #email_section {
+    margin-top: 120px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
@@ -334,7 +320,6 @@ body {
     font-size: 48px;
     padding-top: 40px;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
 }
 
