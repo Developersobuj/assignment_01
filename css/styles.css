@@ -382,7 +382,7 @@ footer {
 .text_white {
     color: #FFF;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 40px;
 
@@ -405,6 +405,10 @@ footer {
     justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 120px;
+}
+
+small {
+    color: #FFF;
 }
 
 i {
